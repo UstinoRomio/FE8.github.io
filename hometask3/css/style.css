@@ -131,13 +131,14 @@
 		display: block;
 		position: relative;
 		width: 1060px;
+		height: 140px;
 		float: right;
 	}
 	
 	.lorem p {
 		line-height: 20px;
-		font-size: 12px;
-		margin: 40px 100px 60px 381px;
+		font-size: 10pt;
+		margin: 38px 100px 60px 380px;
 	}
 	
 	.aux_menu ul {
