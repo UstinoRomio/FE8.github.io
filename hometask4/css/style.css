@@ -1,9 +1,12 @@
+	@font-face { 
+    font-family: "Tahoma";
+    src: url(fonts/Tahoma.ttf) format("truetype");
+	}
+	
 	body {
-	margin: 0;
-	padding: 0;
 	background-color: #128aa7;
 	background: linear-gradient(to bottom, #41c6d3, #0f86a9, #0c739f);
-	font-family: Tahoma, sans-serif;
+	font-family: sans-serif;
 	}
 	
 	.header, .container {
@@ -40,27 +43,28 @@
 	.header .logo {
 	width: 290px;
 	height: 167px;
-	margin: 10px 45px 5px 10px;
+	margin: 10px 45px 5px 28px;
 	}
 	
 	.links {
 	position: absolute;
 	right: 0;
-	bottom: 0;
+	bottom: 10px;
 	}
 	
 	.links a {
 	display: block;
+	font-size: 10pt;
 	}
 	
 	.links a:hover {
-	transform: scale(1.2);
+	transform: scale(1.05);
 	}
 	
 	.links li {
 	text-align: center;
 	display: inline-block;
-	margin: 0 5px 5px 0;
+	margin: 0 2px 2px 0;
 	text-decoration: none;
 	}
 	
@@ -77,7 +81,7 @@
 	float: right;
 	margin-top: 25px;
 	margin-right: 32px;
-	font-size: 16px;
+	font-size: 12pt;
 	line-height: 15px;
 	}
 	
@@ -107,8 +111,8 @@
 	
 	.menu ul.main-list {
 	text-align: justify;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 30px;
+	padding-left: 37px;
 	}
 	
 	.menu ul.main-list:after{
@@ -131,11 +135,11 @@
 	.menu ul.main-list>li:nth-child(4)>a::after {
 	content: " ";
 	position: absolute;
-	line-height: 30px;
+	/*line-height: 30px;*/
 	border: 5px solid;
 	border-color: transparent transparent transparent #eee;
-	top: 0.7em;
-	right: 0.7em;
+	top: 0.5em;
+	right: 0.5em;
 	transition: 0.5s;
 	}
 	
@@ -156,7 +160,7 @@
 	}
 	
 	.menu ul.main-list li ul a {
-	padding-right: 40px;
+	padding-right: 10px;
 	}
 	
 	.menu ul.main-list li:hover ul {
@@ -166,10 +170,10 @@
 	.menu a {
 	display: block;
 	line-height: 30px;
-	padding: 0 50px 0 10px;
+	padding: 0 30px 0 10px;
 	text-decoration: none;
-	font-size: 14px;
-	color: #d7d7d7;
+	font-size: 14pt;
+	color: rgb(255, 255, 255);
 	}
 	
 	.menu a:hover {
@@ -184,21 +188,21 @@
 	}
 	
 	.info, .content, .news {
-	padding: 14px;
+	padding: 15px;
 	color: #424c43;
 	}
 	
 	.info a, .news a {
-	font-size: 14px;
+	font-size: 10pt;
 	text-decoration: none;
-	line-height: 25px;
+	line-height: 20pt;
 	color: #424c43;
 	}
 	
 	.info h1, .news h1, .content h1 {
 	text-align: center;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 18pt;
 	margin-bottom: 10px;
 	}
 	
@@ -250,9 +254,10 @@
 	footer {
 	display: block;
 	color: white;
-	height: 32px;
-	line-height: 32px;
+	height: 31px;
+	line-height: 12pt;
 	text-align: center;
+	padding-top: 8px;
 	margin: 0 auto;
 	}
 	
