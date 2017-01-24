@@ -1,0 +1,140 @@
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	
+	table {
+		width: 500px;
+		height: 541px;
+		border-collapse: collapse;
+		cellspacing: 0;
+		text-align: center;
+		border: none;
+	}
+
+	td {
+		border: 10px solid rgb(37, 24, 15);
+	}
+	
+	.f1st {
+		width: 117px;
+		height: 48px;
+		border-left: none;
+		border-top: none;
+	}
+	
+	.f2d {
+		width: 200px;
+		height: 48px;
+		border-top: none;
+	}
+	
+	.f3d {
+		width: 165px;
+		height: 48px;
+		border-top: none;
+		border-right: none;
+	}
+	
+	.s1st {
+		width: 48px;
+		height: 131px;
+		border-left: none;
+	}
+	
+	.s2d {
+		width: 270px;
+		height: 270px;
+		background-color: rgb(255, 96, 69);
+	}
+	
+	.s3d {
+		width: 164px;
+		height: 128px;
+		border-right: none;
+	}
+	
+	.f4th {
+		width: 50px;
+		height: 201px;
+		border-left: none;
+	}
+	
+	.f4six {
+		width: 79px;
+		height: 130px;
+	}
+	
+	.f4last {
+		width: 79px;
+		height: 130px;
+		border-right: none;
+	}
+	
+	.six1, .six2 {
+		width: 63px;
+		height: 63px;
+	}
+	
+	.six3 {
+		width: 129px;
+		height: 58px;
+	}
+	
+	.six4 {
+		width: 163px;
+		height: 62px;
+	}
+	
+	.s7th {
+		width: 51px;
+		height: 135px;
+		border-left: none;
+		border-bottom: none;
+	}
+	
+	.sev1, .sev2 {
+		width: 63px;
+		height: 63px;
+	}
+	
+	.sev3 {
+		width: 129px;
+		height: 58px;
+	}
+	
+	.sev4 {
+		width: 162px;
+		height: 95px;
+		background-color: rgb(37, 94, 160);
+	}
+	
+	.e8th {
+		width: 131px;
+		height: 69px;
+		border-bottom: none;
+	}
+	
+	.e8th2 {
+		width: 300px;
+		height: 32px;
+		background-color: rgb(30, 30, 30);
+	}
+	
+	.f3d, .s3d, .s7th {
+		background-color: rgb(255, 225, 85);
+	}
+	
+	.six1, .six2, .sev1, .sev2 {
+		background-color: rgb(30, 30, 30);
+	}
+	
+	.nin1 {
+		border-bottom: none;
+		border-right: none;
+	}
+
+	.six4, .sev4 {
+		border-right: none;
+	}
+	

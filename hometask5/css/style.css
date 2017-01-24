@@ -1,0 +1,269 @@
+	@font-face { 
+    font-family: "HelveticaNeue";
+    src: url(fonts/HelveticaNeueRegular/HelveticaNeue.ttf) format("truetype");
+	}
+	
+	body {
+		font-family: HelveticaNeue, sans-serif;
+	}
+	
+	.wrap {
+		display: block;
+		position: relative;
+		width: 1216px;
+		height: 1028px;
+		margin: 0 auto;
+		background-image: url('../images/photo.jpg');
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	.menu ul {
+		position: relative;
+		max-width: 1216px;
+        background: rgb(7, 80, 143);
+        height: 40px;
+		margin: 0 auto;
+		overflow: hidden;
+		padding-left: 280px;
+	}
+	
+	.menu li {
+		display: inline-block;
+		float: left;
+		color: white;
+		height: 40px;
+	}
+	
+	.menu a {
+		display: block;
+		position: relative;
+		height: 40px;
+		font-size: 14pt;
+		padding: 8px 13px 8px 13px;
+		color: rgb(96, 181, 237);
+	}
+	
+	.menu a:hover {
+		background: rgb(78, 171, 218);
+		color: rgb(255, 255, 255);
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	
+	span {
+		text-decoration: underline;
+	}
+	
+	.flag {
+		display: inline-block;
+		padding-left: 19px;
+		padding-top: 7px;
+		float: left;
+		border-left: 1px solid rgb(96, 181, 237);
+	}
+	
+	.flag img {
+		display: block;
+		width: 25px;
+		height: 27px;
+	}
+	
+	.minhas a {
+		color: rgb(255, 255, 255);
+		padding-right: 18px;
+	}
+	
+	.ola a {
+		background: rgb(78, 171, 218);
+		color: rgb(255, 255, 255);
+	}
+	
+	.adjuda {
+		padding-right: 10px;
+	}
+	
+	.container {
+		display: block;
+		position: relative;
+		width: 560px;
+		height: 615px;
+		background-color: rgba(0, 0, 0 , 0.60);
+		margin: 213px 328px 0 328px;
+	}
+	
+	.cad {
+		display: block;
+		position: relative;
+		width: 560px;
+		height: 64px;
+		border-bottom: 2px solid rgb(192, 201, 184);
+		color: rgb(255, 255, 255);
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	.cad p {
+		font-size: 24pt;
+		margin-top: 15px;
+	}
+	
+	.login {
+		display: block;
+		position: relative;
+		max-width: 560px;
+		height: 64px;
+		padding-left: 142px;
+	}
+	
+	.login ul {
+		height: 33px;
+		border-radius: 3px 0 0 3px;
+		float: left;
+		margin-top: 30px;
+		overflow: hidden;
+	}
+	
+	.login li {
+		float: left;
+		height: 33px;
+	}
+	
+	
+	.login img {
+		width: 36px;
+		height: 33px;
+		border-top: 1px solid rgb(117, 138, 183);
+		border-right: 1px solid rgb(33, 60, 113);
+		border-radius: 3px 0 0 3px;
+		overflow: hidden;
+	}
+	
+	.login a {
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+	}
+	
+	.login span {
+		font-weight: 700;
+		text-decoration: none;
+	}
+	
+	.login p {
+		margin-top: 8px;
+		margin-left: 30px;
+	}
+	
+	i {
+		margin-left: 15px;
+	}
+	
+	.log {
+		width: 237px;
+		height: 33px;
+		background: linear-gradient(to bottom, #3e5694, #354d8b, #304274);
+		border-top: 1px solid rgb(117, 138, 183);
+		border-left: 1px solid rgb(117, 138, 183);
+		border-radius: 0 3px 3px 0;
+		overflow: hidden;
+	}
+	
+	.inscription {
+		width: 560px;
+		background-image: url('../images/str.png');
+		position: absolute;
+		left: 142px;
+		width: 276px;
+		height: 2px;
+		margin-top: 25px;
+	}
+	
+	.inscription p {
+		margin-left: 126px;
+		color: rgb(153, 153, 153);
+		margin-top: -6px;
+	}
+	
+	.form {
+		display: block;
+		width: 560px;
+		height: 254px;
+		margin-top: 40px;
+	}
+	
+	.form-input input {
+		width: 256px;
+		height: 35px;
+		border: none;
+		margin-top: 13px;
+		margin-left: 142px;
+		padding-left: 18px;
+		background: linear-gradient(to bottom, #111010, #0f0f0f, #141414);
+		color: rgb(255, 255, 255);
+		border-bottom: 1px solid rgb(73, 73, 72);
+	}
+	
+	.first {
+		margin-top: 0;
+	}
+	
+	.form-input input:hover {
+		background: linear-gradient(to bottom, #1e4b76 7%, #1b5288 80%, #1f5384 5%);
+		box-shadow: rgb(104, 155, 204) 0 0 10px 2px;
+		border-bottom: 1px solid rgb(104, 155, 204);
+	}
+	
+	.chbox {
+		display: block;
+		width: 560px;
+		height: 20px;
+	}
+	
+	.chbox p {
+		color: rgb(255, 255, 255);
+		font-size: 12pt;
+		margin-left: 138px;
+		margin-top: 22px;
+	}
+	
+	.button {
+		display: block;
+		width: 560px;
+		height: 41px;
+		margin-top: 24px;
+	}
+	
+	button {
+		text-decoration: none; 
+		text-align: center; 
+		padding: 12px 13px; 
+		border: none;
+		border-radius: 4px; 
+		font-size: 11pt;
+		color: rgb(255, 255, 255); 
+		background-color: #3BA4C7; 
+		background-image: linear-gradient(to bottom, #3BA4C7, #1982A5);   
+		box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+		margin-left: 205px;
+	}
+	
+	.lastbox {
+		height: 40px;
+		margin-bottom: 20px;
+	}
+	
+	.lastbox p {
+		margin-top: 22px;
+		margin-left: 123px;
+		margin-right: 127px;
+		color: rgb(204, 204, 204);
+		font-size: 10pt;
+		line-height: 16pt;
+	}
