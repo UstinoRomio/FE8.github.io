@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>home task 6</title>
+			<link rel="stylesheet" href="css/reset.css">
+			<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<section id="wrapper">
+			<header>
+				<div class="head_panel">
+					<div class="phone">
+						<img src="images/phone.png" alt="phone">
+					</div>
+					<p>(044)123-45-67 (044)567-89-10</p>
+					<form class="regpanel" action="#">
+						<div class="reg_image">
+							<img src="images/reg.png" alt="">
+						</div>
+						<input class="login" type="text" name="login" placeholder="логин">
+						<input class="password" type="password" name="password" placeholder="пароль">
+						<p class="submit"><a href="#">вход</a></p>
+						<p class="registration"><a href="#">регистрация</a></p>
+						<p class="forgot_password"><a href="#">забыли пароль?</a></p>
+					</form>
+					<div class="small_nav">
+						<a class="home" href="#"><img src="images/home.png" alt="home"></a>
+						<a class="map" href="#"><img src="images/map.png" alt="map"></a>
+						<a class="email" href="#"><img src="images/envelope.png" alt="email"></a>
+					</div>
+				</div>
+				<img src="images/logo.png" alt="Zazor">
+			</header>
+			<nav class="main_menu">
+				<ul>
+					<li class="abcomp"><a href="#">О компании</a></li>
+					<li class="pay"><a href="#">Оплата</a></li>
+					<li class="del"><a href="#">Доставка</a></li>
+					<li class="art"><a href="#">Статьи</a></li>
+					<li class="cont"><a href="#">Контакты</a></li>
+				</ul>
+				<img src="images/cart3.png" alt="cart">
+				<div class="counter">
+					<p>товаров: <span>0</span></p>
+				</div>
+				<div class="total">
+					<p>на сумму: <span>0,00 грн.</span></p>
+				</div>
+			</nav>
+			<div class="selectbox1">
+				<div class="head_box">
+					<div class="discs">
+						<p>Диски:</p>
+					</div>
+					<div class="central">
+						<p>Поиск по автомобилю</p>
+					</div>
+					<div class="tires">
+						<p>Шины:</p>
+					</div>
+				</div>
+				<ul class="leftlist">
+					<li class="car_brand"><p>Марка <span>авто:</span></p></li>
+					<li class="model"><p>Модель <br><span>автомобиля:</span></p></li>
+					<li class="year"><p>Год &nbsp; выпуска<br><span>автомобиля:</span></p></li>
+					<li class="compl"><p>Комплектация:</p></li>
+				</ul>
+				<div class="listbox_set">
+					<select class="listbox" name="car_brand">
+						<option value="">&nbsp;</option>
+						<option value="BMW">BMW</option>
+						<option value="Audi">Audi</option>
+						<option value="Fiat">Fiat</option>
+						<option value="Lada">Lada</option>
+					</select>
+					<select class="listbox" name="car_model">
+						<option value="">&nbsp;</option>
+						<option value="Модель1">Модель1</option>
+						<option value="Модель2">Модель2</option>
+					</select>
+					<select class="small_listbox" name="car_issue">
+						<option value="">&nbsp;</option>
+						<option value="2017">2017</option>
+						<option value="2016">2016</option>
+						<option value="2015">2015</option>
+						<option value="1973">1973</option>
+					</select>
+					<select class="listbox" name="car_equipment">
+						<option value="">&nbsp;</option>
+						<option value="Обычная">Обычная</option>
+						<option value="S_класс">S_класс</option>
+						<option value="Люкс">Люкс</option>
+						<option value="Тюнинг">Тюнинг</option>
+					</select>
+				</div>
+				<div class="rightside">
+					<ul>
+						<li><p>Марка <span>авто:</span></p></li>
+						<li class="rs_model"><p>Модель <br><span>автомобиля:</span></p></li>
+						<li class="rs_year"><p>Год &nbsp; выпуска <br><span>автомобиля:</span></p></li>
+						<li class="rs_compl"><p>Комплектация:</p></li>
+					</ul>
+				</div>
+				<div class="second_listbox_set">
+					<select class="listbox" name="car_brand">
+						<option value="">&nbsp;</option>
+						<option value="BMW">BMW</option>
+						<option value="Audi">Audi</option>
+						<option value="Fiat">Fiat</option>
+						<option value="Lada">Lada</option>
+					</select>
+					<select class="listbox" name="car_model">
+						<option value="">&nbsp;</option>
+						<option value="Модель1">Модель1</option>
+						<option value="Модель2">Модель2</option>
+					</select>
+					<select class="small_listbox" name="car_issue">
+						<option value="">&nbsp;</option>
+						<option value="2017">2017</option>
+						<option value="2016">2016</option>
+						<option value="2015">2015</option>
+						<option value="1973">1973</option>
+					</select>
+					<select class="listbox" name="car_equipment">
+						<option value="">&nbsp;</option>
+						<option value="Обычная">Обычная</option>
+						<option value="S_класс">S_класс</option>
+						<option value="Люкс">Люкс</option>
+						<option value="Тюнинг">Тюнинг</option>
+					</select>
+				</div>
+				<div class="s1_search">
+					<a href="#">поиск...</a>
+				</div>
+			</div>
+			<div class="selectbox2">
+				<div class="hbox">
+					<p>поиск шин</p>
+				</div>
+				<div class="opt1">
+					<p><span>Размер:</span></p>
+					<select class="smaller_listbox1" name="size">
+						<option value="">&nbsp;</option>
+						<option value="145">145</option>
+						<option value="150">150</option>
+						<option value="160">160</option>
+						<option value="165">165</option>
+					</select>
+					<span class="slash">/</span>
+					<select class="smaller_listbox2" name="size">
+						<option value="">&nbsp;</option>
+						<option value="65">65</option>
+						<option value="60">60</option>
+						<option value="55">55</option>
+						<option value="50">50</option>
+					</select>
+				</div>
+				<div class="opt2">
+					<p><span>R</span></p>
+					<select class="smallest_listbox" name="radius">
+						<option value="">&nbsp;</option>
+						<option value="12">12</option>
+						<option value="14">14</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="22">22</option>
+					</select>
+				</div>
+				<div class="opt3">
+					<p><span>Сезон:</span></p>
+				</div>
+				<div class="opt4">
+					<div class="box_leto">
+						<input id="leto" type="checkbox" name="leto">
+						<label class="label_leto" for="leto">лето</label>
+					</div>    
+					<div class="box_zima">
+						<input class="checkbox_zima" type="checkbox" name="zima" id="zima">
+						<label class="label_zima" for="sezon-zima">зима</label>
+					</div>         
+					<div class="box_vse-sez">
+						<input class="checkbox_vse-sezon" type="checkbox" name="vse-sezon" id="vse-sezon">
+						<label class="label_vse-sezon" for="vse-sezon">всесез</label>
+					</div>
+				</div>
+				<div class="s2_search">
+						<a href="#">поиск...</a>
+				</div>
+			</div>
+			<div class="selectbox3">
+				<div class="disc_box">
+					<p class="disc_search">поиск дисков</p>
+					<div class="dia">
+						<p>Диаметр <span>диска:</span></p>
+						<select class="diametr" name="diametr_of_disc">
+							<option value="">&nbsp;</option>
+							<option value="14">14</option>
+							<option value="16">16</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+						</select>
+					</div>
+					<div class="quantity">
+						<p>Количество<br><span>крепёжных</span><br><span>отверстий:</span></p>
+						<select class="quant" name="quantity_of_tf">
+							<option value="">&nbsp;</option>
+							<option value="3">3</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="8">8</option>
+						</select>
+					</div>
+					<div class="dia2">
+						<p>Диаметр <br><span>расположения</span><br><span>крепёжных</span><br><span>отверстий:</span></p>
+						<select class="diametr2" name="diametr_of_tf">
+							<option value="">&nbsp;</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="16">16</option>
+						</select>
+					</div>
+				</div>
+				<div class="right_box">
+					<div class="dco">
+						<p class="dcop">ДЦО</p>
+						<p><span>(диаметр</span><br><span>центрального</span><br><span>отверстия):</span></p>
+						<select class="diametr3" name="diametr_of_mh">
+							<option value="">&nbsp;</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="16">16</option>
+						</select>
+					</div>
+					<div class="et">
+						<p class="etp">ET</p>
+						<p><span>(вылет диска):</span></p>
+						<select class="disc_crash" name="disc_crash">
+							<option value="">&nbsp;</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="16">16</option>
+						</select>
+					</div>
+				</div>
+				<div class="s3_search">
+					<a href="#">поиск...</a>
+				</div>
+			</div>
+			<div class="main_content">
+				<aside class="left_aside">
+					<div class="catalogue_of_goods">
+						<div class="circle">
+						</div>
+						<p><span>Каталог продукции:</span></p>
+					</div>
+					<div class="tires_leftaside">
+						<div class="circle">
+						</div>
+						<p><span>Шины:</span></p>
+					</div>
+					<ul class="tires_list">
+						<li><a href="#">Наименование 1</a></li>
+						<li><a href="#">Наименование 2</a></li>
+						<li><a href="#">Наименование 3</a></li>
+						<li><a href="#">Наименование 4</a></li>
+					</ul>
+					<div class="discs_leftaside">
+						<div class="circle">
+						</div>
+						<p><span>Диски:</span></p>
+					</div>
+					<ul class="tires_list">
+						<li><a href="#">Наименование 1</a></li>
+						<li><a href="#">Наименование 2</a></li>
+						<li><a href="#">Наименование 3</a></li>
+						<li><a href="#">Наименование 4</a></li>
+					</ul>
+					<div class="bolts_leftaside">
+						<div class="circle">
+						</div>
+						<p><span>Болты:</span></p>
+					</div>
+					<ul class="tires_list">
+						<li><a href="#">Наименование 1</a></li>
+						<li><a href="#">Наименование 2</a></li>
+						<li><a href="#">Наименование 3</a></li>
+						<li><a href="#">Наименование 4</a></li>
+					</ul>
+					<div class="circle">
+					</div>
+					<div class="small_circle">
+					</div>
+				</aside>
+				<div class="tire_content">
+					<a class="goodyear" href="#">
+						<h1>Goodyear</h1>
+						<h2>Ultra Grip Extreme</h2>
+						<figure class="picture">
+							<img src="images/goodyear.png" alt="goodyear">
+						</figure>
+						<div class="tire_price">
+							<span>90.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="nokian" href="#">
+						<h1>Nokian</h1>
+						<h2>Hakkapeliitta R</h2>
+						<figure class="picture">
+							<img src="images/nokian.png" alt="nokian">
+						</figure>
+						<div class="tire_price">
+							<span>115.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="hankook" href="#">
+						<h1>Hankook</h1>
+						<h2>K 708 155/65 R14</h2>
+						<figure class="picture">
+							<img src="images/hankook.png" alt="hankook">
+						</figure>
+						<div class="tire_price">
+							<span>393.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="goodyear" href="#">
+						<h1>Goodyear</h1>
+						<h2>Ultra Grip Extreme</h2>
+						<figure class="picture">
+							<img src="images/goodyear.png" alt="goodyear">
+						</figure>
+						<div class="tire_price">
+							<span>90.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="nokian" href="#">
+						<h1>Nokian</h1>
+						<h2>Hakkapeliitta R</h2>
+						<figure class="picture">
+							<img src="images/nokian.png" alt="nokian">
+						</figure>
+						<div class="tire_price">
+							<span>115.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="hankook" href="#">
+						<h1>Hankook</h1>
+						<h2>K 708 155/65 R14</h2>
+						<figure class="picture">
+							<img src="images/hankook.png" alt="hankook">
+						</figure>
+						<div class="tire_price">
+							<span>393.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="goodyear tire_3rd-row" href="#">
+						<h1>Goodyear</h1>
+						<h2>Ultra Grip Extreme</h2>
+						<figure class="picture">
+							<img src="images/goodyear.png" alt="goodyear">
+						</figure>
+						<div class="tire_price">
+							<span>90.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="nokian tire_3rd-row" href="#">
+						<h1>Nokian</h1>
+						<h2>Hakkapeliitta R</h2>
+						<figure class="picture">
+							<img src="images/nokian.png" alt="nokian">
+						</figure>
+						<div class="tire_price">
+							<span>115.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+					<a class="hankook tire_3rd-row" href="#">
+						<h1>Hankook</h1>
+						<h2>K 708 155/65 R14</h2>
+						<figure class="picture">
+							<img src="images/hankook.png" alt="hankook">
+						</figure>
+						<div class="tire_price">
+							<span>393.00 </span><span class="grn">грн.</span>
+						</div>
+					</a>
+				</div>
+				<aside class="right_aside">
+					<p class="brands_rightaside"><img src="images/catalog.png" alt=""><span>Бренды:</span></p>
+					<div class="tires_rightaside">
+						<div class="circle">
+						</div>
+						<p><span>Шины</span></p>
+					</div>
+					<div>
+						<input class="input-checkbox" type="checkbox" id="tire_brand1" name="tire_brand1">
+						<label class="checkbox_label" for="tire_brand1">Бренд 1</label>
+					</div>
+					<div>
+						<input class="input-checkbox" type="checkbox" name="tire_brand2" id="tire_brand2">
+						<label class="checkbox_label" for="tire_brand2">Бренд 2</label>
+					</div>
+					<div>
+						<input class="input-checkbox" type="checkbox" name="tire_brand3" id="tire_brand3">
+						<label class="checkbox_label" for="tire_brand3">Бренд 3</label>
+					</div>
+					<div class="discs_rightaside">
+						<div class="circle">
+						</div>
+						<p><span>Диски</span></p>
+					</div>
+					<div>
+						<input class="input-checkbox" type="checkbox" name="disc_brand1" id="disc_brand1">
+						<label class="checkbox_label" for="disc_brand1">Бренд 1</label>
+					</div>
+					<div>
+						<input class="input-checkbox" type="checkbox" name="disc_brand2" id="disc_brand2">
+						<label class="checkbox_label" for="disc_brand2">Бренд 2</label>
+					</div>
+					<div>
+						<input class="input-checkbox" type="checkbox" name="disc_brand3" id="disc_brand3">
+						<label class="checkbox_label" for="disc_brand3">Бренд 3</label>
+					</div>
+					<button><a href="#"><span>выбрать</span></a></button>
+				</aside>
+			</div>
+			<div class="clearfix">
+			<div class="tire_brands">
+				<a class="toyo" href="#"><img src="images/toyo.png" alt="Toyo"></a>
+				<a class="bridgestone" href="#"><img src="images/bridgestone.png" alt="bridgestone"></a>
+				<a class="continental" href="#"><img src="images/continental.png" alt="continental"></a>
+				<a class="cooper" href="#"><img src="images/cooper.png" alt="cooper"></a>
+				<a class="avon" href="#"><img src="images/avon.png" alt="avon"></a>
+				<a class="tirefactory" href="#"><img src="images/tirefactory.png" alt="tire factory"></a>
+				<a class="pirelli" href="#"><img src="images/pirelli.png" alt="pirelli"></a>
+				<a class="dunlop" href="#"><img src="images/dunlop.png" alt="dunlop"></a>
+			</div>
+			<footer>
+				<ul class="aux_menu">
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Доставка</a></li>
+					<li><a href="#">Статьи</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+				<p class="copyright">Создание сайта <span>&copy;</span> Global Vision</p>
+			</footer>
+		</section>
+	</body>
+</html>
