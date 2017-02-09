@@ -1,19 +1,26 @@
-	/*@font-face { 
-    font-family: "HelveticaNeue";
-    src: url(fonts/HelveticaNeueRegular/HelveticaNeue.ttf) format("truetype");
-	}*/
+	@font-face { 
+		font-family: "Tahoma Regular";
+		src: url('../fonts/Tahoma Regular.ttf') format("truetype");
+		font-style: normal;
+		font-weight: normal;
+	}
+	
+	*:focus {
+		outline: none;
+	}
 	
 	body {
-		font-family: sans-serif;
+		font-family: 'Tahoma Regular', sans-serif;
 	}
 	
 	.wrap {
 		display: block;
 		position: relative;
-		width: 1216px;
+		/*width: 1216px;*/
 		height: 1028px;
 		margin: 0 auto;
 		background-image: url('../images/photo.jpg');
+		background-repeat: no-repeat;
 	}
 
 	ul {
@@ -22,14 +29,18 @@
 		list-style: none;
 	}
 	
+	a {
+		text-decoration: none;
+	}
+	
 	.menu ul {
+		display: block;
 		position: relative;
-		max-width: 1216px;
         background: rgb(7, 80, 143);
         height: 40px;
 		margin: 0 auto;
 		overflow: hidden;
-		padding-left: 280px;
+		padding-left: 763px;
 	}
 	
 	.menu li {
@@ -43,8 +54,8 @@
 		display: block;
 		position: relative;
 		height: 40px;
-		font-size: 14pt;
-		padding: 8px 13px 8px 13px;
+		font-size: 11pt;
+		/*padding: 10px 13px 8px 19px;*/
 		color: rgb(96, 181, 237);
 	}
 	
@@ -53,50 +64,93 @@
 		color: rgb(255, 255, 255);
 	}
 	
-	a {
-		text-decoration: none;
-	}
-	
-	
-	span {
+	.menu span {
 		text-decoration: underline;
 	}
 	
-	.flag {
-		display: inline-block;
-		padding-left: 19px;
-		padding-top: 7px;
-		float: left;
-		border-left: 1px solid rgb(96, 181, 237);
+	.meu {
+		width: 104px;
 	}
 	
-	.flag img {
-		display: block;
-		width: 25px;
-		height: 27px;
+	.meu a {
+		padding: 11px 0 0 10px;
+	}
+	
+	.vender {
+		width: 70px;
+	}
+	
+	.vender a {
+		padding: 11px 0 0 12px;
+	}
+	
+	.forum {
+		width: 63px;
+	}
+	
+	.forum a {
+		padding: 11px 0 0 11px;
+	}
+	
+	.contato {
+		width: 77px;
+	}
+	
+	.contato a {
+		padding: 11px 0 0 13px;
+	}
+	
+	.ajuda {
+		width: 73px;
+	}
+	
+	.ajuda a {
+		padding: 11px 0 0 18px;
+	}
+	
+	.minhas {
+		width: 160px;
 	}
 	
 	.minhas a {
+		padding: 11px 0 0 11px;
+		border-left: 1px solid rgb(96, 181, 237);
 		color: rgb(255, 255, 255);
-		padding-right: 18px;
+	}
+	
+	.minhas a:before {  
+		content: " ";    
+		background: url('../images/flag.png');
+		background-repeat: no-repeat;
+		display: block;
+		width: 25px;
+		height: 27px;
+		float: left;
+		padding-left: 11px;
+	}
+	
+	.ola {
+		width: 189px;
 	}
 	
 	.ola a {
 		background: rgb(78, 171, 218);
 		color: rgb(255, 255, 255);
+		padding: 11px 0 0 7px;
 	}
 	
 	.adjuda {
 		padding-right: 10px;
 	}
 	
-	.container {
+	.contact_form {
 		display: block;
 		position: relative;
 		width: 560px;
 		height: 615px;
 		background-color: rgba(0, 0, 0 , 0.60);
-		margin: 213px 328px 0 328px;
+		margin: 213px 302px 0 420px;
+		overflow: hidden;
 	}
 	
 	.cad {
@@ -152,7 +206,7 @@
 	}
 	
 	.login span {
-		font-weight: 700;
+		font-weight: 900;
 		text-decoration: none;
 	}
 	
@@ -176,27 +230,25 @@
 	}
 	
 	.inscription {
-		width: 560px;
-		background-image: url('../images/str.png');
-		position: absolute;
+		display: block;
+		position: relative;
 		left: 142px;
-		width: 276px;
+		width: 560px;
+		height: 12px;
+		background-image: url('../images/str.png');
+		background-repeat: no-repeat;
 		height: 2px;
-		margin-top: 25px;
+		margin-top: 20px;
+		margin-bottom: 10px;
 	}
 	
 	.inscription p {
-		margin-left: 126px;
+		position: absolute;
+		margin-left: 128px;
 		color: rgb(153, 153, 153);
 		margin-top: -6px;
 	}
 	
-	.form {
-		display: block;
-		width: 560px;
-		height: 254px;
-		margin-top: 40px;
-	}
 	
 	.form-input input {
 		width: 256px;
@@ -208,10 +260,23 @@
 		background: linear-gradient(to bottom, #111010, #0f0f0f, #141414);
 		color: rgb(255, 255, 255);
 		border-bottom: 1px solid rgb(73, 73, 72);
+		cursor: pointer;
+	}
+	
+	.form-input input:focus:invalid { 
+		background: url('../images/invalid.png') no-repeat 98% center;
+		box-shadow: 0 0 8px #d45252;
+		border-color: #b03535
+	}
+	
+	.form-input input:required:valid {
+		background: url('../images/valid.png') no-repeat 98% center;
+		box-shadow: 0 0 8px #5cd053;
+		border-color: #28921f;
 	}
 	
 	.first {
-		margin-top: 0;
+		margin-top: 20px;
 	}
 	
 	.form-input input:hover {
@@ -224,13 +289,11 @@
 		display: block;
 		width: 560px;
 		height: 20px;
-	}
-	
-	.chbox p {
-		color: rgb(255, 255, 255);
 		font-size: 12pt;
-		margin-left: 138px;
+		padding-left: 138px;
 		margin-top: 22px;
+		color: rgb(204, 204, 204);
+		
 	}
 	
 	.button {
@@ -246,24 +309,40 @@
 		padding: 12px 13px; 
 		border: none;
 		border-radius: 4px; 
-		font-size: 11pt;
-		color: rgb(255, 255, 255); 
 		background-color: #3BA4C7; 
 		background-image: linear-gradient(to bottom, #3BA4C7, #1982A5);   
 		box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
 		margin-left: 205px;
+		cursor: pointer;
+	}
+	
+	button a {
+		font-size: 11pt;
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+	}
+	
+	button:hover {
+		border-radius: 12px;
+		transform: scale(1, 1.02);
+		background: rgb(71, 188, 151); 
 	}
 	
 	.lastbox {
 		height: 40px;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	
 	.lastbox p {
 		margin-top: 22px;
-		margin-left: 123px;
-		margin-right: 127px;
+		margin-left: 105px;
+		margin-right: 64px;
 		color: rgb(204, 204, 204);
-		font-size: 10pt;
+		font-size: 9pt;
 		line-height: 16pt;
+	}
+	
+	.lastbox span {
+		float: right;
+		margin-right: 153px;
 	}
