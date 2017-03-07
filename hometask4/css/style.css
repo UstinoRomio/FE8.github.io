@@ -1,268 +1,277 @@
 	@font-face { 
-    font-family: "Tahoma";
-    src: url(fonts/Tahoma.ttf) format("truetype");
+		font-family: "Tahoma Regular";
+		src: url('../fonts/Tahoma Regular.ttf') format("truetype");
+		font-style: normal;
+		font-weight: normal;
 	}
 	
 	body {
-	background-color: #128aa7;
-	background: linear-gradient(to bottom, #41c6d3, #0f86a9, #0c739f);
-	font-family: sans-serif;
+		font-family: 'Tahoma Regular', sans-serif;
+		background-color: #128aa7;
+		background: linear-gradient(to bottom, #41c6d3, #0f86a9, #0c739f);
+		font-family: sans-serif;
 	}
 	
 	.header, .container {
-	width: 1000px;
-	margin: 0 auto;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3)
+		width: 1000px;
+		margin: 0 auto;
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3)
 	}
 	
 	.header-fon {
-	background: #11cde1;
-	background: -webkit-linear-gradient(top, #11cde1 0%, #1fd0e3 10%, #41d7e7 25%, #baf0f6 67%, #dff8fb 81%, #f5fdfe 92%, #ffffff 100%);
-	border-top: 1px solid rgb(94, 240, 255);
+		background: #11cde1;
+		background: -webkit-linear-gradient(top, #11cde1 0%, #1fd0e3 10%, #41d7e7 25%, #baf0f6 67%, #dff8fb 81%, #f5fdfe 92%, #ffffff 100%);
+		border-top: 1px solid rgb(94, 240, 255);
 	}
 	
 	.container-fon { 
-	background: #40c6d3;
-	background: linear-gradient(to bottom, #69e0ec, #bef1f7, #ffffff);
+		background: #40c6d3;
+		background: linear-gradient(to bottom, #69e0ec, #bef1f7, #ffffff);
 	}
 	
 	.container {
-	position: relative;
-	overflow: hidden;
-	border-bottom: 1px solid #031d28;
-	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3)
+		position: relative;
+		overflow: hidden;
+		border-bottom: 1px solid #031d28;
+		box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3)
 	}
 	
 	.header {
-	position: relative;
-	color: rgb(18, 138, 167);
-	z-index: 2;
+		position: relative;
+		color: rgb(18, 138, 167);
+		z-index: 2;
 	}
 	
 	.header .logo {
-	width: 290px;
-	height: 167px;
-	margin: 10px 45px 5px 28px;
+		width: 290px;
+		height: 167px;
+		margin: 10px 45px 5px 28px;
 	}
 	
 	.links {
-	position: absolute;
-	right: 0;
-	bottom: 10px;
+		position: absolute;
+		right: 0;
+		bottom: 10px;
 	}
 	
 	.links a {
-	display: block;
-	font-size: 10pt;
+		display: block;
+		font-size: 10pt;
+		color: rgb(18, 138, 167);
 	}
 	
 	.links a:hover {
-	transform: scale(1.05);
+		transform: scale(1.05);
 	}
 	
 	.links li {
-	text-align: center;
-	display: inline-block;
-	margin: 0 2px 2px 0;
-	text-decoration: none;
+		text-align: center;
+		display: inline-block;
+		margin: 0 2px 2px 0;
+		text-decoration: none;
 	}
 	
 	.links li:last-child {
-	margin-right: 32px;
+		margin-right: 32px;
 	}
 	
 	.links img {
-	display: block;
-	margin: 0 auto;
+		display: block;
+		margin: 0 auto;
 	}
 	
 	.contacts {
-	float: right;
-	margin-top: 25px;
-	margin-right: 32px;
-	font-size: 12pt;
-	line-height: 15px;
+		float: right;
+		margin-top: 25px;
+		margin-right: 32px;
+		font-size: 12pt;
+		line-height: 15px;
 	}
 	
 	.contacts ul li:first-child {
-	font-weight: bold;
+		font-weight: bold;
 	}
 	
 	.photo {
-	position: relative;
-	z-index: 2;
-	display: block;
-	margin: 0 auto;
-	border-top: 1px solid #b0d8e2;
-	border-bottom: 1px solid #b0d8e2;
+		position: relative;
+		z-index: 2;
+		display: block;
+		margin: 0 auto;
+		border-top: 1px solid #b0d8e2;
+		border-bottom: 1px solid #b0d8e2;
 	}
 	
 	.menu {
-	position: relative;
-	z-index: 2;
-	text-align: center;
-	font-size: 0;
-	line-height: 0;
-	border-bottom: 1px solid black;
-	background-color: rgb(50, 50, 50);
-	box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.75);
+		position: relative;
+		z-index: 2;
+		text-align: center;
+		font-size: 0;
+		line-height: 0;
+		border-bottom: 1px solid black;
+		background-color: rgb(50, 50, 50);
+		box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.75);
 	}
 	
 	.menu ul.main-list {
-	text-align: justify;
-	padding-right: 30px;
-	padding-left: 37px;
+		text-align: justify;
+		padding-right: 30px;
+		padding-left: 37px;
 	}
 	
 	.menu ul.main-list:after{
-	width: 100%;
-	height: 0;
-	content: " ";
-	display: inline-block;
-	visibility: hidden;
+		width: 100%;
+		height: 0;
+		content: " ";
+		display: inline-block;
+		visibility: hidden;
 	}
 	
 	.menu ul.main-list li {
-	height: 30px;
-	text-align: left;
-	position: relative;
-	display: inline-block;
+		height: 30px;
+		text-align: left;
+		position: relative;
+		display: inline-block;
 	}
 
 	.menu ul.main-list>li:nth-child(2)>a::after,
 	.menu ul.main-list>li:nth-child(3)>a::after,
 	.menu ul.main-list>li:nth-child(4)>a::after {
-	content: " ";
-	position: absolute;
-	/*line-height: 30px;*/
-	border: 5px solid;
-	border-color: transparent transparent transparent #eee;
-	top: 0.5em;
-	right: 0.5em;
-	transition: 0.5s;
+		content: " ";
+		position: absolute;
+		/*line-height: 30px;*/
+		border: 5px solid;
+		border-color: transparent transparent transparent #eee;
+		top: 0.5em;
+		right: 0.5em;
+		transition: 0.5s;
 	}
 	
 	.menu ul.main-list>li:nth-child(2)>a:hover::after,
 	.menu ul.main-list>li:nth-child(3)>a:hover::after,
 	.menu ul.main-list>li:nth-child(4)>a:hover::after {
-	-webkit-transform: rotate(90deg);
+		-webkit-transform: rotate(90deg);
 	}
 	
 	.menu ul.main-list li ul {
-	min-width: 100%;
-	position: absolute;
-	display: none;
-	top: 30px;
-	background-color: #262626;
-	border-top: 1px solid black;
-	box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.50);
+		min-width: 100%;
+		position: absolute;
+		display: none;
+		top: 30px;
+		background-color: #262626;
+		border-top: 1px solid black;
+		box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.50);
 	}
 	
 	.menu ul.main-list li ul a {
-	padding-right: 10px;
+		padding-right: 10px;
 	}
 	
 	.menu ul.main-list li:hover ul {
-	display: block;
+		display: block;
 	}
 	
 	.menu a {
-	display: block;
-	line-height: 30px;
-	padding: 0 30px 0 10px;
-	text-decoration: none;
-	font-size: 14pt;
-	color: rgb(255, 255, 255);
+		display: block;
+		line-height: 30px;
+		padding: 0 30px 0 10px;
+		text-decoration: none;
+		font-size: 14pt;
+		color: rgb(255, 255, 255);
 	}
 	
 	.menu a:hover {
-	background-color: #262626;
+		background-color: #262626;
 	}
 	
 	.columns-box {
-	margin: 0 auto;
-	width: 100%;
-	position: relative;
-	z-index: 1;
+		margin: 0 auto;
+		width: 100%;
+		position: relative;
+		z-index: 1;
 	}
 	
 	.info, .content, .news {
-	padding: 15px;
-	color: #424c43;
+		padding: 15px;
+		color: #424c43;
 	}
 	
 	.info a, .news a {
-	font-size: 10pt;
-	text-decoration: none;
-	line-height: 20pt;
-	color: #424c43;
+		font-size: 14pt;
+		text-decoration: none;
+		line-height: 24px;
+		letter-spacing: -0.060em;
+		color: #424c43;
 	}
 	
 	.info h1, .news h1, .content h1 {
-	text-align: center;
-	font-weight: bold;
-	font-size: 18pt;
-	margin-bottom: 10px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 18pt;
+		margin-bottom: 10px;
 	}
 	
 	.info-fon,.info-box,.content-fon,.content-box,.news-fon,.news-box {
-	float: left;
-	position: relative;
+		float: left;
+		position: relative;
 	}
 	
 	.info-fon,.content-fon,.news-fon {
-	width: 100%	
+		width: 100%	
 	}	
 	
 	.info-box,.content-box,.news-box {
-	overflow: hidden;
+		overflow: hidden;
 	}
 	
 	.info-fon {
-	border-right: 1px solid #e6e8ea;
-	background-color: #edeef0;
-	right: 58%;
+		border-right: 1px solid #e6e8ea;
+		background-color: #edeef0;
+		right: 58%;
 	}
 	
 	.info-box {
-	width: 21%;
-	left: 79%;
+		width: 208px;
+		left: 79%;
 	}
 	
 	.content-fon {
-	background-color: white;
-	right: 21%;
-	border-left: 1px solid #e6e8ea;
-	border-right: 1px solid #e6e8ea;
+		background-color: white;
+		right: 21%;
+		border-left: 1px solid #e6e8ea;
+		border-right: 1px solid #e6e8ea;
 	}
 	
 	.content-box {
-	width: 58%;
-	left: 79%;
+		width: 52%;
+		left: 79%;
 	}
 	
 	.news-fon {
-	background-color: #edeef0;
+		background-color: #edeef0;
 	}
 	
 	.news-box {
-	width: 21%;
-	left: 79%;
+		width: 208px;
+		left: 79%;
 	}
 	
 	footer {
-	display: block;
-	color: white;
-	height: 31px;
-	line-height: 12pt;
-	text-align: center;
-	padding-top: 8px;
-	margin: 0 auto;
+		display: block;
+		color: white;
+		height: 31px;
+		text-align: center;
+		padding-top: 8px;
+		margin: 0 auto;
+	}
+	
+	.footer span {
+		font-size: 12pt;
+		color: rgb(206, 227, 236);
 	}
 	
 	.clearfix::after {
-	content: "";
-	clear: both;
-	display: block;	
+		content: "";
+		clear: both;
+		display: block;	
 	}
